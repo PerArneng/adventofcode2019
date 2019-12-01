@@ -4,10 +4,10 @@ on: [push]
 
 jobs:
     steps:
-    - name: Install Stack
-      run: |
-        curl -sSL https://get.haskellstack.org/ | sh
-    - name: Build
-      run: |
-        stack --no-terminal build
+      - name: Install Stack
+        run: |
+          curl -sSL https://get.haskellstack.org/ | sh
+      - name: Build
+        run: |
+          stack --no-terminal build
 
