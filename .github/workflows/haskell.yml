@@ -10,10 +10,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - name: LS
-      run: |
-        ls -lah
     - name: Build
       run: |
         stack --system-ghc --no-terminal build
-
