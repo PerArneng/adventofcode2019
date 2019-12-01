@@ -3,11 +3,16 @@ name: Haskell CI
 on: [push]
 
 jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
     steps:
-      - name: Install Stack
-        run: |
-          curl -sSL https://get.haskellstack.org/ | sh
-      - name: Build
-        run: |
-          stack --no-terminal build
+    - name: Install Stack
+      run: |
+        curl -sSL https://get.haskellstack.org/ | sh
+    - name: Build
+      run: |
+        stack --no-terminal build
 
