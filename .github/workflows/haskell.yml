@@ -9,9 +9,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-#    - name: Install Stack
-#      run: |
-#        curl -sSL https://get.haskellstack.org/ | sh
+    - name: LS
+      run: |
+        ls -lah
     - name: Build
       run: |
         stack --system-ghc --no-terminal build
