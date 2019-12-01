@@ -14,5 +14,5 @@ jobs:
 #        curl -sSL https://get.haskellstack.org/ | sh
     - name: Build
       run: |
-        stack --no-terminal build
+        stack --system-ghc --no-terminal build
 
