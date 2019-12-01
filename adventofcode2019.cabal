@@ -4,16 +4,16 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: addde79ab47b8451282d23f439a8c53d62e9b56cbfd428334527ea237d5b7f9e
+-- hash: f2e041ec80027a6c73bb21d67ef647ccb56cd1c80811a0f62504e450c39cd652
 
 name:           adventofcode2019
 version:        0.1.0.0
 description:    Please see the README on GitHub at <https://github.com/githubuser/adventofcode2019#readme>
-homepage:       https://github.com/githubuser/adventofcode2019#readme
-bug-reports:    https://github.com/githubuser/adventofcode2019/issues
-author:         Author name here
-maintainer:     example@example.com
-copyright:      2019 Author name here
+homepage:       https://github.com/PerArneng/adventofcode2019#readme
+bug-reports:    https://github.com/PerArneng/adventofcode2019/issues
+author:         Per Arneng
+maintainer:     per.arneng@scalebit.com
+copyright:      2019 SCALEBIT AB
 license:        BSD3
 license-file:   LICENSE
 build-type:     Simple
@@ -23,7 +23,7 @@ extra-source-files:
 
 source-repository head
   type: git
-  location: https://github.com/githubuser/adventofcode2019
+  location: https://github.com/PerArneng/adventofcode2019
 
 library
   exposed-modules:

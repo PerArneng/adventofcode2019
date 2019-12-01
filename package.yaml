@@ -1,10 +1,10 @@
 name:                adventofcode2019
 version:             0.1.0.0
-github:              "githubuser/adventofcode2019"
+github:              "PerArneng/adventofcode2019"
 license:             BSD3
-author:              "Author name here"
-maintainer:          "example@example.com"
-copyright:           "2019 Author name here"
+author:              "Per Arneng"
+maintainer:          "per.arneng@scalebit.com"
+copyright:           "2019 SCALEBIT AB"
 
 extra-source-files:
 - README.md
